@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "dependencies": {
+    "todomvc-app-css": "^2.0.0",
+    "todomvc-common": "^1.0.0",
+    "vue": "^2.5.16"
+  },
+  "scripts": {
+    "dev": "browser-sync start --server --files \"index.html, css/*.css, js/**/*.js\"",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4"
+  }
+}
